@@ -370,6 +370,16 @@ footer section div{
     
 }
 
+footer p {
+    width: 233px;
+    height: 32px;
+
+    margin-top: 15px;
+    font: 500 28px 'Poppins';
+    font-family: 'Poppins';
+    color: #707070;
+}
+
 
 
 
