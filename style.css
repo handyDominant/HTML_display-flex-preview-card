@@ -141,6 +141,37 @@ main .btn {
 
 /* начало работы с statistics */
 
+
+.statistics h2 {
+    font: 800 40px 'Mulish';
+    text-align: center;
+    color: #001A49; 
+}
+
+.statistics p {
+    font: 400 16px 'Mulish';
+    text-align: center;
+    color: #4F596A; 
+}
+
+.statistics .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1120px;
+    height: 172px;
+
+    background: #FFFFFF;
+    border: 1px solid #E7EAEB;
+    border-radius: 21px;
+}
+
+.statistics .wrapper div {
+    margin: auto;
+}
+
+
 /* конец работы с statistics */
 
 
