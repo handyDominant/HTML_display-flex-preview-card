@@ -428,9 +428,7 @@ footer section {
 
 section .left-footer {
     display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    
+    flex-direction: column;  
 }
 
 section .left-footer .top-footer {
@@ -441,10 +439,11 @@ section .left-footer .top-footer {
 section .left-footer .top-footer p {
     width: 78.96px;
     height: 56px;
+    margin-right: 7.77px; 
 
     font: 800 37px 'Poppins';
     font-family: 'Poppins';
-    color: #3C82F4;  
+    color: #3C82F4; 
 }
 
 section .left-footer div {
