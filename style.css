@@ -18,6 +18,11 @@
     src: url("./Fonts/Mulish-Regular.ttf") format("truetype");
 } 
 
+@font-face {
+    font-family: "Poppins";
+    src: url("./Fonts/Poppins-ExtraBold.ttf");
+}
+
 
 * {
     margin: 0;
@@ -147,6 +152,7 @@ main .btn {
 /* начало работы с statistics */
 
 
+
 .statistics h2 {
     font: 800 40px 'Mulish';
     text-align: center;
@@ -160,9 +166,11 @@ main .btn {
 }
 
 .statistics .wrapper {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 99;
 
     width: 1120px;
     height: 172px;
@@ -174,6 +182,16 @@ main .btn {
 
 .statistics .wrapper div {
     margin: auto;
+}
+
+.statistics .img-wrapper {
+    position: absolute;
+    background-image: url("./assents/Side\ Shape.svg");
+    width: 288px;
+    height: 288px;
+    z-index: 0;
+    margin: -136px 0 0 -206px;
+
 }
 
 
