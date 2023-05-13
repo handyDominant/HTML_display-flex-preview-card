@@ -362,37 +362,6 @@ main .btn {
 
 /* конец работы с five-part-section */
 
-/* начало работы с six-part-section */
-
-.advantages .six-part-section {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    background: #EEF7FF;
-    width: 1120px;
-    height: 172px;
-    margin-top: 31px;
-}
-
-.advantages .six-part-section h3 {
-    font: 800 24px 'Mulish';
-
-    color: #001A49; 
-}
-
-.advantages .six-part-section p {
-    font: 400 16px 'Mulish';
-    width: 960px;
-    height: 48px;
-    
-    margin-top: 20px;
-    color: #4F596A;
-}
-
-/* конец работы с six-part-section */
-
 
 
 /* Картинка преимуществ .advantages*/
