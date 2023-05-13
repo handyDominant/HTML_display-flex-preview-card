@@ -23,6 +23,11 @@
     src: url("./Fonts/Poppins-ExtraBold.ttf");
 }
 
+@font-face {
+    font-family: "Poppins";
+    src: url("./Fonts/Poppins-Medium.ttf")
+}
+
 
 * {
     margin: 0;
@@ -400,51 +405,70 @@ main .btn {
     font: 800 50px 'Mulish';
     color: #001A49;
 }
+/* Конец колонки CallBack */
 
 
 
-footer {
+
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+
     margin-top: 129px;
 }
 
-footer section .logo {
-    width: 78.96px;
-    height: 56px;
-    font: 800 37px 'Poppins';
-    color: #3C82F4;
-}
-
-footer section .footer-img {
-    background-image: url("../assents/Course\ topics.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
+.img-logo-footer {
+    background-image: url("./assents/Course\ topics.svg");
     width: 243.34px;
     height: 56px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-footer section div{
+section .left-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+section .left-footer .top-footer {
     display: flex;
     justify-content: space-between;
-    
 }
 
-.footer-txt {
-    font: 500 27px 'Mulish';
-    color: #707070;
+section .left-footer .top-footer p {
+    width: 78.96px;
+    height: 56px;
+
+    font: 800 37px 'Poppins';
+    font-family: 'Poppins';
+    color: #3C82F4;  
+}
+
+section .left-footer div {
     width: 490.45px;
     height: 40px;
-    
+
+    font: 500 27px 'Mulish';
+    color: #707070;
 }
 
-footer p {
+section .right-footer p {
     width: 233px;
     height: 32px;
 
-    margin-top: 15px;
     font: 500 28px 'Poppins';
-    font-family: 'Poppins';
     color: #707070;
 }
+
+
+
+
+
+
+
 
 
 
