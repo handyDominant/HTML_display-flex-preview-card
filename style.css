@@ -239,7 +239,6 @@ main .btn {
 /* начало работы с two-part-section */
 
 .advantages .two-part-section {
-    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -272,7 +271,6 @@ main .btn {
 /* начало работы с three-part-section */
 
 .advantages .three-part-section {
-    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -303,7 +301,6 @@ main .btn {
 /* начало работы с four-part-section */
 
 .advantages .four-part-section {
-    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -334,7 +331,6 @@ main .btn {
 /* начало работы с five-part-section */
 
 .advantages .five-part-section {
-    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -366,14 +362,12 @@ main .btn {
 
 /* Картинка преимуществ .advantages*/
 .advantages .img-advantages {
-    position: relative;
     background-image: url("./assents/Group\ 8.svg");
     background-repeat: no-repeat;
     background-size: contain;
 
     width: 64px;
     height: 64px;
-    z-index: 1;
 }
 
 /* ЧАСТЬ 2 advantages */
