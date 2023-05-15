@@ -150,7 +150,7 @@ main .btn {
 
 .introductory .info{
     width: 1283px;
-    height: 360px;
+    
 }
 
 /* конец работы с introductory */
@@ -487,10 +487,19 @@ section .right-footer p {
         display: none;
     }
 
+    
+
     .introductory .info {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .introductory .info p{
+        margin: 20px auto;
+        width: 600px;
+
+        
     }
 
     .introductory .info .btn{
@@ -518,6 +527,7 @@ section .right-footer p {
     flex-direction: column;
     width: 450px;
     height: 450px;
+    margin-top: 30px;
    }
 
    .statistics .img-wrapper {
