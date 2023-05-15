@@ -220,6 +220,9 @@ main .btn {
 .advantages .first-part-section h2 {
     display: flex;
 
+    width: 637px;
+    max-height: 69px;
+    
     font: 800 46px 'Mulish';
     align-items: center;
     color: #001A49;
@@ -228,6 +231,8 @@ main .btn {
 .advantages .first-part-section p {
     display: flex;
 
+    width: 560px;
+    max-height: 60px;
     font: 400 20px 'Mulish';
     align-items: center;
     color: #4F596A; 
@@ -246,7 +251,7 @@ main .btn {
 
     background: #EEF7FF;
     height: 172px;
-    margin-top: 31px;
+    margin-top: 61px;
     border-radius: 21px;
 }
 
@@ -490,43 +495,6 @@ section .right-footer p {
 
 
 
-
-    .introductory .info h1{
-        margin-top: 100px;
-    }
-
-  
-
-    .introductory .info p {
-        text-align: center;
-    }
-
-
-    .statistics .wrapper {
-        flex-direction: column;
-        background-color: #F5F5F5;
-        border-width: 0;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .statistics .wrapper .img-wrapper{
-        display: none;
-    }
-
-
-
-    .statistics .img-wrapper {
-        display: none;
-    }
-
-    
-    .advantages .two-part-section{
-        max-width: 600px;
-    }
-
-    
-    
 }
 
 
