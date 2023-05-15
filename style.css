@@ -45,6 +45,7 @@ header {
     width: 1120px;
     margin: 0 auto;
     top: 0;
+    z-index: 100000000;
 }
 
 header nav p:hover {
@@ -474,7 +475,7 @@ section .right-footer p {
 
 @media screen and (max-width: 600px) {
     body {
-    width: 600px;
+        width: 600px;
     }
 
     header {
@@ -486,8 +487,10 @@ section .right-footer p {
         display: none;
     }
 
-    .introductory .img-video {
-        display: none;
+    .introductory .info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .introductory .info .btn{
@@ -687,17 +690,21 @@ section .right-footer p {
         color: #001A49;
     }
 
+    /*
     footer {
         width: 600px;
     }
-
-
+        
+    
     footer section {
         display: flex;
         margin-top: 129px;
     }
+    */
 
-
+    footer {
+        display: none;
+    }
 }
 
 
